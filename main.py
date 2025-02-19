@@ -1,6 +1,7 @@
 import pandas as pd 
 import streamlit as st
 import numpy as np
+import sklearn
 from sklearn import metrics
 from sklearn.metrics import classification_report, mean_absolute_error, mean_squared_error, r2_score
 from sklearn.ensemble import RandomForestRegressor
